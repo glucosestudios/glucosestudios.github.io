@@ -1,0 +1,22 @@
+{
+  "games": [
+    {
+      "code": "DRW",
+      "name": "Driftwood",
+      "description": "A quiet sailing game about reading currents, patching a boat, and not being in a hurry.",
+      "platforms": "Mac · Windows · Steam Deck",
+      "downloadLink": "",
+      "icon": "<path d=\"M3 15c3-4 6-4 9 0s6 4 9 0\"/><path d=\"M3 19c3-4 6-4 9 0s6 4 9 0\"/><circle cx=\"17\" cy=\"7\" r=\"3\"/>"
+    }
+  ],
+  "tools": [
+    {
+      "code": "LDG",
+      "name": "Ledger",
+      "description": "Personal finance that stays on your device. No linked banks, no upsells — just your numbers.",
+      "platforms": "Mac · iOS · iPad",
+      "downloadLink": "",
+      "icon": "<rect x=\"4\" y=\"3\" width=\"16\" height=\"18\" rx=\"1\"/><path d=\"M8 8h8M8 12h8M8 16h5\"/>"
+    }
+  ]
+}
