@@ -1,1 +1,0 @@
-# glucosestudios.github.io
