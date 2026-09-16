@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glucose Studios — Software, in fast-acting doses</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <a class="wordmark" href="#top"><span class="dot"></span>Glucose Studios</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <ul class="nav-links">
+      <li><a href="#products">Products</a></li>
+      <li><a href="#studio">Studio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="nav-cta" href="#contact">Get in touch</a>
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </label>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Software, in fast-acting doses.</h1>
+        <p class="lede">Glucose Studios makes games you'll lose an evening to and personal tools you'll open every morning — built lean, shipped often, never bloated.</p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="#products">See the lineup</a>
+          <a class="btn btn-ghost" href="#studio">About the studio</a>
+        </div>
+      </div>
+
+      <div class="molecule-wrap">
+        <img src="assets/glucose-molecule.svg" width="380" height="380" alt="Illustration of a glucose molecule ring">
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="section" id="products">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>The lineup</h2>
+        <p>Six shipped products, two families. Games for the evening, tools for the morning.</p>
+      </div>
+
+      <div class="category-block games">
+        <div class="category-label">
+          <h3>Games</h3>
+          <span class="count">03 titles</span>
+          <div class="category-rule"></div>
+        </div>
+        <div class="tile-grid">
+          <a class="tile" href="#">
+            <div class="tile-top">
+              <span class="tile-code">DRW</span>
+              <svg class="tile-glyph" viewBox="0 0 24 24" fill="none" stroke="#B23A54" stroke-width="1.6"><path d="M3 15c3-4 6-4 9 0s6 4 9 0"/><path d="M3 19c3-4 6-4 9 0s6 4 9 0"/><circle cx="17" cy="7" r="3"/></svg>
+            </div>
+            <h4>Driftwood</h4>
+            <p>A quiet sailing game about reading currents, patching a boat, and not being in a hurry.</p>
+            <span class="tile-tag">Mac · Windows · Steam Deck</span>
+          </a>
+
+          <a class="tile" href="#">
+            <div class="tile-top">
+              <span class="tile-code">NTA</span>
+              <svg class="tile-glyph" viewBox="0 0 24 24" fill="none" stroke="#B23A54" stroke-width="1.6"><rect x="4" y="4" width="7" height="7"/><rect x="13" y="4" width="7" height="7"/><rect x="4" y="13" width="7" height="7"/><rect x="13" y="13" width="7" height="7"/></svg>
+            </div>
+            <h4>Nocturne Arcade</h4>
+            <p>Twelve short, sharp minigames built for a controller and a couch, one new cabinet a month.</p>
+            <span class="tile-tag">iOS · Android · Apple TV</span>
+          </a>
+
+          <a class="tile" href="#">
+            <div class="tile-top">
+              <span class="tile-code">HLW</span>
+              <svg class="tile-glyph" viewBox="0 0 24 24" fill="none" stroke="#B23A54" stroke-width="1.6"><path d="M12 3v4M5 8l3 2M19 8l-3 2M4 14h16M6 14l1 7h10l1-7"/></svg>
+            </div>
+            <h4>Hollow Ward</h4>
+            <p>A two-player co-op dungeon crawler where one of you can see the map and the other can't.</p>
+            <span class="tile-tag">Windows · Co-op only</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="category-block tools">
+        <div class="category-label">
+          <h3>Personal tools</h3>
+          <span class="count">03 apps</span>
+          <div class="category-rule"></div>
+        </div>
+        <div class="tile-grid">
+          <a class="tile" href="#">
+            <div class="tile-top">
+              <span class="tile-code">LDG</span>
+              <svg class="tile-glyph" viewBox="0 0 24 24" fill="none" stroke="#16646A" stroke-width="1.6"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
+            </div>
+            <h4>Ledger</h4>
+            <p>Personal finance that stays on your device. No linked banks, no upsells — just your numbers.</p>
+            <span class="tile-tag">Mac · iOS · iPad</span>
+          </a>
+
+          <a class="tile" href="#">
+            <div class="tile-top">
+              <span class="tile-code">LPB</span>
+              <svg class="tile-glyph" viewBox="0 0 24 24" fill="none" stroke="#16646A" stroke-width="1.6"><path d="M4 12a8 8 0 1 1 3 6.2"/><path d="M4 12v5h5"/></svg>
+            </div>
+            <h4>Loopback</h4>
+            <p>A habit and journal app that asks one question a day and shows you the pattern over months.</p>
+            <span class="tile-tag">iOS · Android · Web</span>
+          </a>
+
+          <a class="tile" href="#">
+            <div class="tile-top">
+              <span class="tile-code">QTH</span>
+              <svg class="tile-glyph" viewBox="0 0 24 24" fill="none" stroke="#16646A" stroke-width="1.6"><circle cx="12" cy="12" r="8"/><path d="M12 7v5l3 2"/></svg>
+            </div>
+            <h4>Quiet Hours</h4>
+            <p>A focus timer that mutes your other apps for the length of the session, not just your phone.</p>
+            <span class="tile-tag">Mac · Windows</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STUDIO -->
+  <section class="section studio" id="studio">
+    <div class="wrap">
+      <h2>A small studio that ships often.</h2>
+
+      <div class="studio-copy">
+        <p>Glucose Studios started as a way to keep making things without waiting for a single big release. Every product here is small enough for a handful of people to build, maintain, and actually keep using themselves.</p>
+        <p>We don't treat games and tools as different disciplines. Both come down to the same question: does this feel good in the first thirty seconds, and does it still feel good after a hundred hours? If a build fails that test, it doesn't ship.</p>
+
+        <ul class="studio-facts">
+          <li><strong>Founded</strong><span>2019, in a shared flat with one desk and two monitors.</span></li>
+          <li><strong>Team</strong><span>Seven people across engineering, art, and writing.</span></li>
+          <li><strong>Cadence</strong><span>A new build or update most weeks, a new product roughly twice a year.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <h2>Have something worth building?</h2>
+        <a class="footer-email" href="mailto:hello@glucose.studio">hello@glucose.studio</a>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#products">Products</a></li>
+        <li><a href="#studio">Studio</a></li>
+        <li><a href="#">Press kit</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Mastodon</a></li>
+        <li><a href="#">itch.io</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Glucose Studios.</span>
+      <span class="footer-mark">Built in-house, naturally.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
