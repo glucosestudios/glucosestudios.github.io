@@ -5,7 +5,7 @@
       "name": "Driftwood",
       "description": "A quiet sailing game about reading currents, patching a boat, and not being in a hurry.",
       "platforms": "Mac · Windows · Steam Deck",
-      "downloadLink": "",
+      "downloadLink": "https://example.com/",
       "icon": "<path d=\"M3 15c3-4 6-4 9 0s6 4 9 0\"/><path d=\"M3 19c3-4 6-4 9 0s6 4 9 0\"/><circle cx=\"17\" cy=\"7\" r=\"3\"/>"
     }
   ],
