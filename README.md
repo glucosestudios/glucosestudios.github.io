@@ -20,6 +20,20 @@ assets/
   `.category-block.tools`. Copy an existing tile and change the code, icon,
   name, description, and platform tag. Update the `03 titles` / `03 apps`
   count next to the section heading if you add or remove one.
+
+  Looks like:
+  ```html
+  <a class="tile" href="#">
+    <div class="tile-top">
+      <span class="tile-code">DRW</span>
+      <svg class="tile-glyph" viewBox="0 0 24 24" fill="none" stroke="#B23A54" stroke-width="1.6"><path d="M3 15c3-4 6-4 9 0s6 4 9 0"/><path d="M3 19c3-4 6-4 9 0s6 4 9 0"/><circle cx="17" cy="7" r="3"/></svg>
+    </div>
+    <h4>Example</h4>
+    <p>An example game provided for README.md.</p>
+    <span class="tile-tag">Mac · Windows · Steam Deck</span>
+  </a>
+  ```
+  
 - **Colors, type, spacing**: all live as CSS custom properties at the top of
   `style.css` (`:root`), plus a few section-specific rules further down. There's
   no inline styling in the HTML.
